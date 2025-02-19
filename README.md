@@ -1,18 +1,17 @@
-# Gallery application
+# Concordium Decentralized(DEX) application
 
-The example project included in this repository, serves as a working example of using the concordium ids to create a webpage with authorization.
-The webpage will only display the gallery items' images if the user has provided a proof for the statement that the backend demands.
+The example project included in this repository, serves as a working example of using the concordium ids to verify if a user is/above 18 and belongs to at least one of the countries specified.
+The webpage will only display the DEX if the user has provided a proof for the statement that the backend demands.
 
 The backend for this demo can be found in the [verifier](./verifier/) folder:
 
 ## Hosted front end
 
 [Hosted front end link testnet](https://gallery.testnet.concordium.com/)
-[Hosted front end link mainnet](https://gallery.mainnet.concordium.software/)
 
 ## Prerequisites
 
--   Browser wallet extension must be installed in google chrome and have an account, in order to connect and authorize.
+-   Browser wallet extension must be installed in google chrome(V8 engine) and have an account, in order to connect and authorize.
 -   Access to a concordium node exposing the v2 GRPC API. (The backend expects it on localhost:20000, but this can be changed using the `node` parameter)
 -   Cargo/rustc installed (to build the rust backend).
 
